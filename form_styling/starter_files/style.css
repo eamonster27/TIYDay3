@@ -1,0 +1,44 @@
+/*
+    Colors from  : https://color.adobe.com/doodoomchit-color-theme-9578264/edit/?copy=true
+    logo color   : #733462
+    submit color : #D14720
+*/
+* {
+  background-image: image();
+}
+
+#logo {
+  color: #733462;
+  font-family: times, helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+form > fieldset > legend {
+  text-align: center;
+}
+
+form > fieldset {
+  border-style: dotted;
+}
+
+.name {
+  background-color: grey;
+  padding: 10px;
+}
+
+fieldset > div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+textarea {
+  width: 100%;
+}
+
+#submit_button {
+  background-color: red;
+  border-style: none;
+  border-radius: 10px;
+}

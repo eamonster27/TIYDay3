@@ -1,0 +1,80 @@
+/*
+    Colors from: https://color.adobe.com/doodoomchit-color-theme-9578264/edit/?copy=true
+*/
+
+body{
+    font-family: Palatino, "Times New Roman", Times, serif;
+    line-height: 1.6;
+    background-color: #ddd;
+}
+
+body > div{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding: 30px;
+
+    box-shadow: 0 5px 10px rgba( 0, 0, 0, 0.2 );
+}
+
+fieldset{
+    padding-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    border: 1px dotted #999;
+}
+
+legend{
+    text-align: center;
+    letter-spacing: 0.4em;
+    font-size: 0.8em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+textarea{
+    width: 94%;
+    padding: 3%;
+    color: #666;
+}
+
+.name{
+    background: #eee;
+    padding: 5px;
+}
+
+.city_container{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#logo{
+    text-align: center;
+    color: #733462;
+    margin-top: 0;
+    margin-bottom: 0.6em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.submit_container{
+    text-align: right;
+}
+
+#submit_button{
+    background: #D14720;
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+

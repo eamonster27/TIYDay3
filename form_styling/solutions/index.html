@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <h1 id="logo">Form</h1>
+        
+            <form action="#">
+                
+                <fieldset>
+
+                    <legend>All About You</legend>
+                    <div class="name">
+                        <label for="first_name">First Name:</label>
+                        <input type="text" name="first_name" id="first_name">
+                    </div>
+                    <div class="name">
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" name="last_name" id="last_name">
+                    </div>
+                    <div class="city_container">
+                        <label for="city">Favorite City:</label>
+                        <select name="city" id="city">
+                            <option value="south_carolina">South Carolina</option>
+                            <option value="california">California</option>
+                            <option value="new_york">New York</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="bio">Bio:</label>
+                        <br>
+                        <textarea name="bio" id="bio" cols="50" rows="10">This is some text...</textarea>
+                    </div>
+
+                </fieldset>
+
+                <div class="submit_container">
+                    <input type="submit" id="submit_button" value="Submit!">
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>
