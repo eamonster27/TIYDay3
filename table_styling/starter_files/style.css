@@ -1,0 +1,46 @@
+/*
+    Colors from: https://color.adobe.com/doodoomchit-color-theme-9578264/edit/?copy=true
+*/
+
+#logo {
+  /*
+  change text font
+  */
+  font-family: sans-serif, times;
+}
+
+thead {
+  /*
+  thead has a soft grey background
+  text font is purple
+  change text font
+  */
+  background-color: grey;
+  color: purple;
+  font-family: sans-serif;
+}
+
+tbody {
+
+
+}
+
+tfoot > tr > td:nth-child(2) {
+  background-color: red;
+  color: white;
+  padding: 2em;
+  outline-style: solid;
+  outline-color: black;
+
+}
+
+tfoot > tr > td:nth-child(1) {
+  padding-left: 50%;
+}
+
+td {
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: black;
+
+}
