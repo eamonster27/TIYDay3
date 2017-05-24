@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Oleo Script;
+  src: url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2);
+}
+
+@font-face {
+  font-family: Poiret One;
+  src: url(http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2);
+}
+
+* {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main-heading {
+  font-family: Oleo Script, arial;
+  padding-top: 200px;
+}
+
+.site-header {
+  background-image: url("../img/header-background.jpg");
+  background-size: contain auto;
+  background-repeat: no-repeat;
+  width: 1260px;
+  height: 560px;
+
+}
+
+.header-wrapper {
+  /*Swamp Rabbit Cycling*/
+  font-size: 32px;
+  color: white;
+  font-family: Poiret One, arial;
+}
+
+.subheader-wrapper {
+  /*Bringing you the best...*/
+  font-size: 12px;
+  color: white;
+}
+
+.callout-wrapper {
+  background-color: green;
+  color: white;
+}
+
+.footer-wrapper {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+}
+
+.site-imgs{
+}
+
+.single-img-card {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#left-img {
+  background-image: url("../img/left-img.jpg");
+
+}
+
+#middle-img {
+  background-image: url("../img/middle-img.jpg");
+
+}
+
+#right-img {
+  background-image: url("../img/right-img.jpg");
+
+
+}
+
+.image-cards {
+
+}
