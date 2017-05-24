@@ -1,0 +1,96 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+header {
+  background-color: #ff8523;
+  padding: 20px;
+}
+
+.main_navigation > a {
+  color: white;
+  text-decoration: none;
+  outline-color: white;
+  outline-style: solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: helvetica, arial, sans-serif;
+}
+
+#page_content {
+  font-family: helvetica, arial, sans-serif;
+  color: #1fabe5;
+}
+
+#page_content p {
+  color: black;
+}
+
+ul {
+  font-weight: bold;
+  color: black;
+}
+
+td {
+  color:black;
+  outline-color: #046c97;
+  outline-style: solid;
+  outline-width: thin;
+}
+
+img {
+  padding: 10px;
+}
+
+thead td {
+  color: white;
+  background-color: #1fabe5;
+  padding: 10px;
+
+}
+
+.name {
+  background-color: #ff8523;
+  color: white;
+  padding: 20px;
+}
+section {
+  border-bottom: solid;
+  border-bottom-color:#eee;
+}
+section > form {
+  background-color: #dddddd;
+  padding: 20px;
+  color: black;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.city_container{
+  padding: 10px;
+}
+
+form > div:nth-child(3) {
+  padding: 10px;
+}
+
+textarea {
+  border-color: #1fabe5;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  color: white;
+  border: none;
+  padding: 10px;
+}
