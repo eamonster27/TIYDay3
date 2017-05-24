@@ -13,6 +13,15 @@ colors:
     dark blue - #046c97
 */
 
+h2{
+  margin-top: 0px;
+}
+
+body {
+  background-image:url("img/bg.jpg");
+  padding: 50px;
+
+}
 header {
   background-color: #ff8523;
   padding: 20px;
@@ -68,6 +77,8 @@ thead td {
 section {
   border-bottom: solid;
   border-bottom-color:#eee;
+  border-bottom-width: thin;
+  background-color: white
 }
 section > form {
   background-color: #dddddd;

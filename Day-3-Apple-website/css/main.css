@@ -1,0 +1,44 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-image: url("../img/iphone-background.jpg");
+  background-size: 1280px;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.site-header {
+
+}
+
+.nav-ul {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+}
+
+.nav-ul > li {
+  display:inline-block;
+  padding: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header-link {
+  text-decoration: none;
+  color: black;
+}
+
+.header-items {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.header-content {
+  padding-top: 60px;
+  font-family: arial, sans-serif;
+}
